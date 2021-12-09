@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>NOTICIAS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        
+        <picture>
+            <source srcset="Img/noticias-G.png" media="(min-width: 600px)">
+            <img src="Img/noticias-Pequeno.png" alt="Logo">
+        </picture>
+    <nav>
+        <ul id="menu">
+            <li><a href="" id="ultimas-noticias"> &Uacute;ltimas not&iacute;cias </a></li>
+            <li><a href="" id="corona"> Corona v&iacute;rus </a>   </li>
+            <li><a href="" id="esportes"> Esportes</a>
+                <!--Sub menu, quando o mouse passar em cima aparece-->
+                <ul>
+                    <li><a href="#"  id="fut">Futebol</a></li>
+                    <li><a href="#"  id="bask">Basket</a></li>
+                    <li><a href="#"  id="volei">Volei</a></li>
+                    
+                 </ul>
+            
+            </li>
+
+            <li><a href="" id="curiosidades"> Curiosidades </a></li>
+            <li><a href="" id="receitas"> Receitas </a>
+            <ul>
+                <li><a href="#" id="baixo">Baixo custo</a></li>
+                <li><a href="#" id="bolo">Bolos</a></li>
+                <li><a href="#" id="espec">Especial</a></li>
+            </ul>
+          </li>
+
+            <li><a href="" id="internacionais"> Noticias internacionais </a></li>
+        </ul>
+    </nav>
+    <button id="lupa" onclick="pesquisa()"><img src="Img/lupa.png" ></button>
+    </header>
+
+    <main>
+    <div class="procurar">
+        <label >Pesquisar </label>
+        <input type="text" id="pesquisar"/>
+    </div>
+    </main>
+</body>
+<script src="scrypt.js"></script>
+</html>
