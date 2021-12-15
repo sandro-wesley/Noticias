@@ -48,11 +48,36 @@
     </header>
 
     <main>
-    <div class="procurar">
+        <span id="espaco"></span>
+    <div id="procurar">
         <label >Pesquisar </label>
         <input type="text" id="pesquisar"/>
+        <button type="button" id="go"><img src="Img/lupa.png" alt="Pesquisar"></button>
+
+        <!--Botão temporario para fechar div da pesquisa-->
+        <button type="button" id="fechar" onclick="fechar()">Fechar</button>
     </div>
+
+    <section id="noticias">
+        <div id="carrossel">
+            <h1>Carrossel</h1>
+        </div>
+
+        <div id="not-1">
+            <h1>ESPAÇO 1</h1>
+        </div>
+
+        <div id="not-2">
+            <h1>ESPAÇO 2</h1>
+        </div>
+
+        <div id="not-3">
+            <h1>ESPAÇO 3</h1>
+        </div>
+    </section>
     </main>
+
 </body>
+
 <script src="scrypt.js"></script>
 </html>

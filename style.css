@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 header{
     display: flex;
 
@@ -37,7 +36,7 @@ li{
 #menu li:hover ul,
  #menu li.over ul {
      display:block;
-    
+
     }
     
 #menu li ul li{
@@ -45,7 +44,6 @@ li{
     width: 150px;
     height: 40px;
     margin-top: 8px;
-    
 }
 #menu,#ultimas-noticias,
 #curiosidades, #corona, #esportes,
@@ -67,24 +65,111 @@ li{
 
 
 main{
-    background-color: black;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    margin: 0;
+    background-color: #000000c2;
 }
 
-.procurar{
-    padding: 15px;
-    background-color: #ccc;
-    display: flex;
-    justify-content: center;
+#procurar{
+    padding: 10px;
+    background-color: rgba(209, 238, 255, 0.733);
     display: none;
+    justify-content: center;
+    position: relative;
+    top: -300px;
 }
 #pesquisar{
     padding: 0.5rem;
-    
 }
 
 label{
     font-size: 25px;
     padding-right: 15px;
+}
+
+#espaco{
+    background-color: transparent;
+   width: 100%;
+   padding: 0.1px;
+}
+#go{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*Botao temporario*/
+#fechar{
+
+    border: none;
+    border-radius: 20%;
+    padding: 8px;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+
+#noticias{
+   /* background-color: #000000c2;
+*/
+    height: 100vh;
+    
+    margin-left: 2%;
+
+    display: grid;
+
+    grid-template-columns: 25%;
+    grid-template-rows: 25vh;
+
+    gap: 25px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#carrossel{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    background-color: #fff;
+   
+
+    padding: 2rem;
+    
+    margin-top: 5%;
+}
+
+#not-1{
+    grid-column-start: 1;
+   
+    background-color: #ff7c7c;
+    width: 15vw;
+    height: 15vh;
+    padding: 5vw;
+  
+
+   
+}
+
+#not-2{
+    grid-column: 2;
+    
+    background-color: #c8ee1d;
+    width: 18vw;
+    height: 15vh;
+    padding: 5vw;
+ 
+}
+
+#not-3{
+    grid-column: 3;
+    
+
+    background-color: #ffc402dc;
+    width: 18vw;
+    height: 15vh;
+    padding: 5vw;
+    justify-content: center;
+
 }
