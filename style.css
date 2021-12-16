@@ -173,3 +173,24 @@ label{
     justify-content: center;
 
 }
+
+footer{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+
+    flex-direction: row;
+    gap: 10%;
+
+    line-height: 35px;
+    background-color: #00000088;
+
+    color: #fff;
+}
+
+.sobre a, .fale a,.cat a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

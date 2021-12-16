@@ -1,83 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>NOTICIAS</title>
 
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header>
-        
+
         <picture>
             <source srcset="Img/noticias-G.png" media="(min-width: 600px)">
             <img src="Img/noticias-Pequeno.png" alt="Logo">
         </picture>
-    <nav>
-        <ul id="menu">
-            <li><a href="" id="ultimas-noticias"> &Uacute;ltimas not&iacute;cias </a></li>
-            <li><a href="" id="corona"> Corona v&iacute;rus </a>   </li>
-            <li><a href="" id="esportes"> Esportes</a>
-                <!--Sub menu, quando o mouse passar em cima aparece-->
-                <ul>
-                    <li><a href="#"  id="fut">Futebol</a></li>
-                    <li><a href="#"  id="bask">Basket</a></li>
-                    <li><a href="#"  id="volei">Volei</a></li>
-                    
-                 </ul>
-            
-            </li>
+        <nav>
+            <ul id="menu">
+                <li><a href="" id="ultimas-noticias"> &Uacute;ltimas not&iacute;cias </a></li>
+                <li><a href="" id="corona"> Corona v&iacute;rus </a> </li>
+                <li><a href="" id="esportes"> Esportes</a>
+                    <!--Sub menu, quando o mouse passar em cima aparece-->
+                    <ul>
+                        <li><a href="#" id="fut">Futebol</a></li>
+                        <li><a href="#" id="bask">Basket</a></li>
+                        <li><a href="#" id="volei">Volei</a></li>
 
-            <li><a href="" id="curiosidades"> Curiosidades </a></li>
-            <li><a href="" id="receitas"> Receitas </a>
-            <ul>
-                <li><a href="#" id="baixo">Baixo custo</a></li>
-                <li><a href="#" id="bolo">Bolos</a></li>
-                <li><a href="#" id="espec">Especial</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="" id="curiosidades"> Curiosidades </a></li>
+                <li><a href="" id="receitas"> Receitas </a>
+                    <ul>
+                        <li><a href="#" id="baixo">Baixo custo</a></li>
+                        <li><a href="#" id="bolo">Bolos</a></li>
+                        <li><a href="#" id="espec">Especial</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="" id="internacionais"> Noticias internacionais </a></li>
             </ul>
-          </li>
-
-            <li><a href="" id="internacionais"> Noticias internacionais </a></li>
-        </ul>
-    </nav>
-    <button id="lupa" onclick="pesquisa()"><img src="Img/lupa.png" ></button>
+        </nav>
+        <button id="lupa" onclick="pesquisa()"><img src="Img/lupa.png"></button>
     </header>
 
     <main>
         <span id="espaco"></span>
-    <div id="procurar">
-        <label >Pesquisar </label>
-        <input type="text" id="pesquisar"/>
-        <button type="button" id="go"><img src="Img/lupa.png" alt="Pesquisar"></button>
+        <div id="procurar">
+            <label>Pesquisar </label>
+            <input type="text" id="pesquisar" />
+            <button type="button" id="go"><img src="Img/lupa.png" alt="Pesquisar"></button>
 
-        <!--Botão temporario para fechar div da pesquisa-->
-        <button type="button" id="fechar" onclick="fechar()">Fechar</button>
-    </div>
-
-    <section id="noticias">
-        <div id="carrossel">
-            <h1>Carrossel</h1>
+            <!--Botão temporario para fechar div da pesquisa-->
+            <button type="button" id="fechar" onclick="fechar()">Fechar</button>
         </div>
 
-        <div id="not-1">
-            <h1>ESPAÇO 1</h1>
-        </div>
+        <section id="noticias">
+            <div id="carrossel">
+                <h1>Carrossel</h1>
+            </div>
 
-        <div id="not-2">
-            <h1>ESPAÇO 2</h1>
-        </div>
+            <div id="not-1">
+                <h1>ESPAÇO 1</h1>
+            </div>
 
-        <div id="not-3">
-            <h1>ESPAÇO 3</h1>
-        </div>
-    </section>
+            <div id="not-2">
+                <h1>ESPAÇO 2</h1>
+            </div>
+
+            <div id="not-3">
+                <h1>ESPAÇO 3</h1>
+            </div>
+        </section>
     </main>
 
+    <footer>
+        <div class="sobre">
+            <h1>Sobre</h1>
+            <a href="">Endereços</a>
+            <br />
+            <a href="">Fontes</a>
+            <br />
+            <a href="">Nossa hist&oacute;ria</a>
+        </div>
+        
+        <div class="fale">
+            <h1> Fale conosco </h1>
+            <a href="mailto:">Email</a>
+            <br />
+            <a href="tel:+55">Telefone</a>
+        </div>
+
+        <div class="cat">
+            <h1>Categorias</h1>
+            <a href="" > &Uacute;ltimas not&iacute;cias </a>
+                <br />
+            <a href="" > Corona v&iacute;rus </a>
+                <br />
+            <a href="" > Esportes</a>
+            <br />
+            <a href="" >Futebol</a>
+            <br />
+            <a href="" >Basket</a>
+            <br />
+            <a href="" >Volei</a>
+            <br />
+            <a href=""> Curiosidades </a>
+            <br />
+            <a href=""> Receitas </a>
+            <br />
+            <a href="#">Baixo custo</a>
+            <br />
+            <a href="#">Bolos</a>
+            <br /> 
+            <a href="#">Especial</a>
+        </div>
+    </footer>
 </body>
 
 <script src="scrypt.js"></script>
+
 </html>
